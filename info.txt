@@ -1,0 +1,15 @@
+
+# Contact info submission
+
+url: mallorca-finca-reisen.de/
+site_owner: Life 
+address1: Maria-Hilf-Straße 20
+address2: 
+city: Bingen
+state: 
+country: Germany
+postal_code: 55411
+phone_number: 0034/637 200 127
+display_email: info@mallorca-finca-reisen.de
+site_name: 
+site_description: 

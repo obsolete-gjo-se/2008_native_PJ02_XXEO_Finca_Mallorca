@@ -1,0 +1,78 @@
+/*
+In dieser Datei werden die Formate für das Service-Center beschrieben. 
+Änderungen am Aussehen des Service-Centers, die sich nicht über die 
+Service-Center-Einstellungen von mail to date erreichen lassen, können
+Sie hier vornehmen.
+*/
+
+
+/* Hier wird der Text allgemein  definiert, Einstellungen, die hier vorgenommen 
+werden, gelten generell auch erst einmal für die anderen Abschnitte, solange sie 
+nicht dort durch andxerere Werte überschrieben werden. */
+body {	
+	background-color:#f9dfbc; /* Hintergrundfarbe */
+	font-family:Arial; /* Zeichensatz */
+	font-size:10pt; /* Schriftgröße */
+	font-style:normal; /* Zeichenstil */
+	font-weight:normal; /* Zeichenstärke */
+	color:#000000; /* Farbe des Textes */
+	margin: 1em; /* Abstand 1 */
+	padding: 0;	 /* Abstand 2 */
+}
+
+/* Definition der Überschriften */
+h1 {	
+	font-family:Arial; /* Zeichensatz */  
+	font-size:14pt; /* Schriftgröße */
+	font-style:normal; /* Zeichenstil */
+	font-weight:normal; /* Zeichenstärke */
+	color:#000000; /* Farbe */
+	border-bottom:solid thin #000000 /* Linie unterhalb der Überschrift (Kann auch leer sein) */
+}
+
+/* Definition des normalen Textes */
+p,li	{	
+	font-family:Arial; /* Zeichensatz */ 
+	font-size:10pt; /* Schriftgröße */
+	font-style:normal; /* Zeichenstil */
+	font-weight:normal; /* Zeichenstärke */
+	line-height:10pt; /* Höhe der Zeile */
+	color:#000000; /* Farbe */           
+  margin-bottom:0 px;		                
+	padding-bottom:0%;
+}
+
+/* Definition der Hyperlinks */
+a	{	
+	font-family:Arial; /* Zeichensatz */ 
+	font-size:10pt; /* Schriftgröße */
+	font-style:normal; /* Zeichenstil */
+	font-weight:normal; /* Zeichenstärke */
+	line-height:10pt; /* Höhe der Zeile */
+	color:#000080; /* Farbe */        
+	word-spacing:0.0em; /* Wortabstand */
+	letter-spacing:0.0em; /* Zeichenabstand */
+}
+
+/* Definition der Seite allgemein */
+.page_layout {
+  width:100%; /* Die gesamte Breite verwenden */
+}
+
+/* Definition für das Menü */
+.top_menu {
+	margin: 1em 0 1em 0; /* Abstand des Gesamt-Menüs vom Rest der Seite */
+	padding: 0;/* Abstand zwischen den Menüpunkten */
+}
+
+/* Definition eines Absatzes ohne Abstand  */
+.p_1 {
+	margin: 0; /* Abstand auf 0 setzen */
+}
+
+/* Definition der Newsletter-Erläuterungen  */
+.letter_description {
+	margin: 0 0 0.5em 2em; /* Gesamtabstand der Liste zum Rest der Seite */
+	font-size: x-small; /* Schriftgröße */
+	display: block; /* Ergebnis wird innerhalb eines Blocks angezeigt */
+}

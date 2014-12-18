@@ -1,0 +1,39 @@
+
+Unten finden Sie den Inhalt des Feedback-Formulars. Es wurde abgesendet von
+ (##absender##) am ##DATUM## um ##UHRZEIT## hat ein Besucher das Formular:
+##ENV_HTTP_REFERER## ausgefüllt. Der Besucher hatte die IP ##ENV_REMOTE_ADDR##.
+---------------------------------------------------------------------------
+
+Anrede: ##Anrede##
+
+Vorname: ##Vorname##
+
+Nachname: ##Nachname##
+
+Straße: ##Straße##
+
+Ort: ##Ort##
+
+Tel: ##Tel##
+
+An: ##An##
+
+Ab: ##Ab##
+
+anzTage: ##anzTage## ##frueher## ##spaeter##
+
+Erwachsene: ##Erwachsene##
+
+Kinder: ##Kinder##
+
+Kindesalter: ##Kindesalter##
+
+Service: ##Service##
+
+Wagentyp: ##Wagentyp##
+
+KFZ-Mietort: ##kfzmietort##
+
+Flug: ##flug##
+
+mitteilung: ##mitteilung##

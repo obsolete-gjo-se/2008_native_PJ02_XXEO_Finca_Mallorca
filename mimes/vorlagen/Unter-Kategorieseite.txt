@@ -1,0 +1,55 @@
+<head>
+        	<title>Unterkategorieseite</title>
+         <meta name="keywords" content="Unterkategorieseite">
+         <meta name="description" content="Unterkategorieseite">
+	<meta name="author" content="Georg Erdmann">
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+         <meta name="language" content="de">
+         <link rel="stylesheet" href="http://www.mallorca-finca-reisen.de/mimes/styles/main.css" type="text/css">
+</head>
+
+
+
+
+         
+
+
+<p class="content05"><a href="../../Sitemap/mimes/vorlagen/[A-Category-Filename]">[A-Category-Name]</a> > [A-Sub-Category-Name] ([A-Number-Of-Links-In-Sub-Category])</p>
+	 <p class="content05">Hier finden Sie alle unsere Partner in diversen Kategorien unterteilt. Möchten Sie Ihre Website auch bei uns gelistet haben, so nehmen Sie bitte
+	 Kontakt mit uns auf.</p>
+         <h1 class="content01">[A-Sub-Category-Name] ([A-Number-Of-Links-In-Sub-Category])</h1>
+	 <p class="content05">[A-Sub-Category-Description]</p>
+
+	[A-Link-Repeat]<br style="clear: both">
+
+	 [A-If-Link-Thumbnail]
+	 <a href="../../Sitemap/mimes/vorlagen/[A-Link-URL]" target="_blank">
+	 <img src="../../Sitemap/mimes/vorlagen/[A-Link-Thumbnail-Filename]" width="[A-Link-Thumbnail-Width]" height="[A-Link-Thumbnail-Height]" style="border:1px solid silver; float:left; margin:0px 10px 10px 10px"
+	 alt="[A-Link-Found-URL]"> </a>
+	 [A-Endif]
+
+	 [A-If-Link-Back-Picture]
+	 <a href="../../Sitemap/mimes/vorlagen/[A-Link-URL]" target="_blank"><img src="../../Sitemap/mimes/vorlagen/[A-Link-Back-Picture-URL]" style="border:0px; float:left" alt="[A-Link-Title]"></a> 
+	 [A-Endif]
+
+	 <p class="content05"><a href="../../Sitemap/mimes/vorlagen/[A-Link-URL]" target="_blank">[A-Link-Title]</a></p>
+	 <p class="content05">[A-Link-Description]<br>[A-Link-URL]</p><br><br>
+
+	 [A-If-Link-Picture]<br>
+	 <img src="../../Sitemap/mimes/vorlagen/[A-Link-Picture-URL]">
+	 [A-Endif]
+
+	[A-Link-Repeat-End]
+
+	 [A-Page-Numbers, Structure = '
+	 <table style="font-size:10px; margin:0px 10px 10px 0px">
+	   <tr>
+	     <td><a href="../../Sitemap/mimes/vorlagen/%FP-URL%"><<</a> </td>
+	     <td><a href="../../Sitemap/mimes/vorlagen/%PP-URL%"><</a> </td>
+	     <td><a href="../../Sitemap/mimes/vorlagen/%NP-URL%">></a> </td>
+	     <td><a href="../../Sitemap/mimes/vorlagen/%LP-URL%">>></a></td>
+	   </tr>
+	 </table>',
+	 CurrentPageFront = '<div style="color:gray; font-weight:bold; display:inline;">', CurrentPageAfter = '</div>', MaxDisplayedPageNumbers = 10]
+	 <p class="content05"><a href="../../Sitemap/mimes/vorlagen/[A-Category-Filename]">Zurück zur Kategorie "[A-Category-Name]"</a></p>
+         <p class="content05"><a href="../../Sitemap/mimes/vorlagen/[A-Home-Filename]">Zurück zur Link-Verzeichnis-Hauptseite</a></p>

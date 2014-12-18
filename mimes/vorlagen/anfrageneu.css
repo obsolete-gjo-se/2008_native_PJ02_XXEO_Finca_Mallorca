@@ -1,0 +1,202 @@
+
+scrollbar-3dlight-color: 000000; scrollbar-arrow-color: 000000; scrollbar-darkshadow-color: 000000; scrollbar-face-color: 666699; scrollbar-highlight-color: A3AEB5; scrollbar-shadow-color: 607A8B; scrollbar-track-color: 1D3240;
+background: #FFFFFF;
+color: #000000;
+  }
+
+/* HYPERLINKS GESTALTEN */
+
+/* A:link {text-decoration: underline; color: #000066; } */
+/* A:active {text-decoration: underline; color: red; } */
+/* A:visited {color: gray; } */
+/* A:hover {text-decoration: none; color: red; }*/
+
+/* a {        font-size: 13px; text-decoration: none; font-weight : bold;}*/
+/* a:link {color:#B64919}}*/
+/* a:visited {color:#B64919}*/
+/* a:active {color:#B64919}}*/
+/* a:hover{color: #330000; TEXT-DECORATION: underline}*/
+/* ENDE HYPERLINKS GESTALTEN */
+
+	                                    .xbordertophead {
+	                                     color: #f8f8f8;
+	                                     font-weight: normal;
+	                                     font-size: 10px;
+	                                     line-height: 13px;
+	                                     font-family: Geneva, Arial, Helvetica, san-serif;
+	                                     background-color: #CC3300;
+	                                     padding-left: 20px;
+	                                     border-top: 1px solid black;
+	                                     border-right: 1px solid black;
+	                                     border-bottom: 1px solid black;
+	                                     border-left: 1px solid black;
+	                                     text-align: left;
+	                                    }
+
+	                                    .tablegesamt {
+	                                     border: 1px solid black;
+	                                     background: #FFE4A4;
+	                                     }
+				            .beschr {
+	                                     font: bold small-caps normal 14px/normal Tahoma;
+	                                     color: #FFFFFF;
+	                                     background: #666699;
+	                                     letter-spacing: normal;
+	                                     text-align: center;
+	                                     text-indent: 2pt;
+	                                     vertical-align: middle;
+	                                     word-spacing: normal;
+	                                     list-style-type: disc;
+	                                     border: 1px solid #000000;
+	                                    }
+
+.forminputyear {
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	FONT-SIZE: 10px;
+	VERTICAL-ALIGN: baseline;
+	BORDER-LEFT: #808080 1px solid;
+	WIDTH: 60px;
+	COLOR: #414141;
+	LINE-HEIGHT: 10px;
+	BORDER-BOTTOM: #808080 1px solid;
+	FONT-STYLE: normal;
+	FONT-FAMILY: verdana, arial, "Sans Serif";
+	BACKGROUND-COLOR: #f5f5f5;
+	TEXT-ALIGN: left;
+	FONT-VARIANT: normal;
+	TEXT-DECORATION: none;
+	padding: 1px;
+
+}
+.forminpumonth {
+
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	FONT-SIZE: 10px;
+	VERTICAL-ALIGN: baseline;
+	BORDER-LEFT: #808080 1px solid;
+	WIDTH: 90px;
+	COLOR: #414141;
+	LINE-HEIGHT: 10px;
+	BORDER-BOTTOM: #808080 1px solid;
+	FONT-STYLE: normal;
+	FONT-FAMILY: verdana, arial, "Sans Serif";
+	BACKGROUND-COLOR: #f5f5f5;
+	TEXT-ALIGN: left;
+	FONT-VARIANT: normal;
+	TEXT-DECORATION: none;
+	padding: 1px;
+}
+.textfliess {
+	font: normal 11px/normal Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-align: justify;
+	text-indent: 5px;
+	border: 1px solid #000000;
+	padding: 5px;
+	margin: 5px;
+
+
+
+}
+
+.tablegesamt {border: 1px solid black;background: #FFE4A4;}
+	                                    .forminput {
+	                                     BORDER-RIGHT: #808080 1px solid;
+	                                     BORDER-TOP: #808080 1px solid;
+	                                     FONT-SIZE: 10px;
+	                                     VERTICAL-ALIGN: baseline;
+	                                     BORDER-LEFT: #808080 1px solid;
+	                                     WIDTH: 100px;
+	                                     COLOR: #414141;
+	                                     LINE-HEIGHT: 10px;
+	                                     BORDER-BOTTOM: #808080 1px solid;
+	                                     FONT-STYLE: normal;
+	                                     FONT-FAMILY: verdana, arial, "Sans Serif";
+	                                     BACKGROUND-COLOR: #f5f5f5;
+	                                     TEXT-ALIGN: left;
+	                                     FONT-VARIANT: normal;
+	                                     TEXT-DECORATION: none;
+	                                     padding: 1px;
+	                                    }
+	                                    .forminput2 {
+	                                     BORDER-RIGHT: #808080 1px solid;
+	                                     PADDING-RIGHT: 1px;
+	                                     BORDER-TOP: #808080 1px solid;
+	                                     PADDING-LEFT: 1px;
+	                                     FONT-SIZE: 10px;
+	                                     PADDING-BOTTOM: 1px;
+	                                     VERTICAL-ALIGN: baseline;
+	                                     BORDER-LEFT: #808080 1px solid;
+	                                     WIDTH: 40px;
+	                                     COLOR: #414141;
+	                                     LINE-HEIGHT: 10px;
+	                                     PADDING-TOP: 1px;
+	                                     BORDER-BOTTOM: #808080 1px solid;
+	                                     FONT-STYLE: normal;
+	                                     FONT-FAMILY: verdana, arial, "Sans Serif";
+	                                     BACKGROUND-COLOR: #f5f5f5;
+	                                     TEXT-ALIGN: left;
+	                                     FONT-VARIANT: normal;
+	                                     TEXT-DECORATION: none
+	                                    }
+	                                    .forminput3 {
+	                                     BORDER-RIGHT: #808080 1pt solid;
+	                                     BORDER-TOP: #808080 1pt solid;
+	                                     FONT-SIZE: 10px;
+	                                     VERTICAL-ALIGN: baseline;
+	                                     BORDER-LEFT: #808080 1pt solid;
+	                                     WIDTH: auto;
+	                                     COLOR: #414141;
+	                                     LINE-HEIGHT: 10px;
+	                                     BORDER-BOTTOM: #808080 1pt solid;
+	                                     FONT-STYLE: normal;
+	                                     FONT-FAMILY: verdana, arial, "Sans Serif";
+	                                     BACKGROUND-COLOR: #f5f5f5;
+	                                     TEXT-ALIGN: left;
+	                                     FONT-VARIANT: normal;
+	                                     TEXT-DECORATION: none;
+	                                     padding: 1px;
+	                                    }
+
+
+	                                    .textvorinput {
+	                                     PADDING-RIGHT: 5px;
+	                                     FONT-SIZE: 10px;
+	                                     VERTICAL-ALIGN: middle;
+	                                     BORDER-LEFT: 5px;
+	                                     COLOR: #3e3e3e;
+	                                     LINE-HEIGHT: 10px;
+	                                     FONT-FAMILY: Verdana, "Courier New", "Sans Serif";
+	                                     TEXT-ALIGN: left
+	                                    }
+	                                    .textvorpflichtinput {
+	                                     PADDING-RIGHT: 10px;
+	                                     FONT-SIZE: 10px;
+	                                     VERTICAL-ALIGN: top;
+	                                     BORDER-LEFT: 5px;
+	                                     COLOR: #d14d00;
+	                                     LINE-HEIGHT: 13px;
+	                                     FONT-FAMILY: Verdana, "Courier New", "Sans Serif";
+	                                     TEXT-ALIGN: left
+	                                    }
+.bottom {  font: normal xx-small/normal Verdana, Arial, Helvetica, sans-serif; text-transform: capitalize; width: 100%; background: #FFFF99 center; color: #990000; text-align: center;}
+	                                    .datens {
+	                                     padding-right: 10px;
+	                                     padding-bottom: 10px;
+	                                     padding-left: 10px;
+	                                     FONT-SIZE: 10px;
+	                                     VERTICAL-ALIGN: top;
+	                                     BORDER-LEFT: 5px;
+	                                     COLOR: #3e3e3e;
+	                                     LINE-HEIGHT: 15px;
+	                                     FONT-FAMILY: Verdana, "Courier New", "Sans Serif";
+	                                     TEXT-ALIGN: left;
+	                                     background: #FFFFFF url(../../Sitemap/mimes/vorlagen/pixel.gif) no-repeat right bottom;
+	                                     border-top: 1px solid black;
+	                                     border-right: 1px solid black;
+	                                     border-bottom: 1px solid black;
+	                                     border-left: 1px solid black;
+	                                    }
+

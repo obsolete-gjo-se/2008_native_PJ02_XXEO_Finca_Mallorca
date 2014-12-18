@@ -1,0 +1,31 @@
+BODY {scrollbar-3dlight-color: #000000; scrollbar-arrow-color: #000000; scrollbar-darkshadow-color: #000000; scrollbar-face-color: #666699; scrollbar-highlight-color: #A3AEB5; scrollbar-shadow-color: #607A8B; scrollbar-track-color: #1D3240;
+position : absolute;
+top : 0px;
+left: 0px;
+margin: 0px;
+padding: 0px;
+background: #3a3c69;
+color: white;
+ }
+.fotoshowrahmen        {border-top: 1px solid black;border-right: 1px solid black;border-bottom: 1px solid black;border-left: 1px solid black;}
+.fotoshowtext {
+ text-align:center;
+ border-top: 1px solid black;
+ border-right: 1px solid black;
+ border-bottom: 1px solid black;
+ border-left: 1px solid black;
+ background: #666699;
+ font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+ width: 90%;
+ margin-right: 5px;
+ margin-left: 5px;
+}
+.objektname {
+	bgcolor: #666699;
+	font: normal 14px Verdana, Arial, Helvetica, sans-serif;
+}
+.wechsel {
+	bgcolor: #666699;
+	font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #A0A0A4;
+}

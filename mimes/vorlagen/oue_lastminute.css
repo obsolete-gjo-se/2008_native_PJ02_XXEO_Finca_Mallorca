@@ -1,0 +1,199 @@
+BODY {
+position : absolute;
+top : 2px;
+left: 2px;
+margin: 2px;
+width: 100%;
+padding: 0;
+background: #FFFFFF;
+color: #000000;
+}
+
+.oue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	background-color: #FFE4A4;
+	height: auto;
+	width: auto;
+	vertical-align: top;
+}
+
+.oue2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #FFFFFF; background-color: #7F7F55; height: 19px; width: auto ; text-indent: 1pt; background-position: center center; text-align: center}
+
+.ouetitel {font-family: Arial, Helvetica, sans-serif;font-size: x-small;font-style: normal;line-height: normal;font-weight: normal;font-variant: normal;text-transform: none;
+	color: #000000;background-color: #FFFFFF;height: auto;width: auto;vertical-align: top;}
+/* Listenstil KARO */
+ul {
+list-style-image : url(../../Sitemap/mimes/vorlagen/karo.gif);
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 10pt;
+}
+
+
+/* ZEICHENVORLAGEN */
+i {color : #000066; }
+
+/* HYPERLINKS GESTALTEN */
+
+A:link {text-decoration: underline; color: #000066; }
+A:active {text-decoration: underline; color: red; }
+A:visited {color: gray; }
+A:hover {text-decoration: none; color: red; }
+
+/* Gesamtumrandung TABELLE */
+table.umrandung {
+border-style : solid;
+border-width: 1px;
+border-color : blue;
+}
+
+#tabellename {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: none;
+}
+
+	                                    .lastminutetop {
+	                                     color: #FFFFCC;
+	                                     font-weight: bold;
+	                                     font-size: 13px;
+	                                     line-height: 13px;
+	                                     font-family: Geneva, Arial, Helvetica, san-serif;
+	                                     background-color: #B64919;
+	                                     padding-right: 10px;
+	                                     padding-left: 10px;
+	                                     border-top: 1px solid black;
+	                                     border-right: 1px solid black;
+	                                     border-bottom: 1px solid black;
+	                                     border-left: 1px solid black;
+	                                     text-align: center;
+	                                    }
+.tab1 {
+	border-top: 1px solid black;
+	border-right: none;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+	width: 270px;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none;
+
+
+
+
+}
+.tab2 {
+	border-top: 1px solid black;
+	border-right: none;
+	border-bottom: 1px solid black;
+	border-left: none;
+                PADDING-LEFT: 2px;
+                Width: 198px;
+vertical-align: top;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none;
+}
+
+.tab3 {
+	border-top: 1px solid black;
+	border-right: none;
+	border-bottom: 1px solid black;
+	border-left: none;
+                Width: 150px;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none;
+	text-align: center;
+	vertical-align: middle;
+
+
+}
+.tab4 {
+	border-top: 1px solid black;
+	border-right: none;
+	border-bottom: 1px solid black;
+	border-left: none;
+                PADDING-LEFT: 2px;
+                Width: 112px;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none;
+}
+.tab5 {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: none;
+                Width: 150 px;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none;
+}
+.bilddes {
+	background-color: #3a3c69;
+	PADDING-RIGHT: 5px;
+	FONT-SIZE: 10px;
+	VERTICAL-ALIGN: middle;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	COLOR: #FFFFFF;
+	LINE-HEIGHT: 10px;
+	FONT-FAMILY: Verdana, "Courier New", "Sans Serif";
+	TEXT-ALIGN: left;
+	text-indent: 3px;
+	width: 150px;
+}
+
+
+/* ###############################  LASTMINUTE ######################## */
+
+.lm_oue2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #FFFFFF; background-color: #7F7F55; height: 19px; width: 418px ; text-indent: 1pt; background-position: center center; text-align: center;}
+.lm2_oue2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #FFFFFF; background-color: #FFFFFF; height: 19px; width: 50px ; text-indent: 1pt; background-position: center center; text-align: center;}
+.lmheader_oue2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #FFFFFF; background-color: #FFFFFF; height: 19px; width: 150px ; text-indent: 1pt; background-position: center center; text-align: center;}
+.lmheader2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #FFFFFF; background-color: #FFFFFF; height: 19px; width: 150px ; text-indent: 1pt; background-position: center center; text-align: center;}
+
+
+.lm_tab1 {
+	border-top: 1px solid black;
+	border-right: none;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+	width: 418px;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none;
+
+}
+.lm_tab2 {
+	border-top: 1px solid black;
+	border-right: none;
+	border-bottom: 1px solid black;
+	border-left: none;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+	width: 50px;
+	vertical-align: middle;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none;
+}
+.lm_tab3 {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: none;
+    Width: 150px;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none;
+}
+
+.xformtexthome {
+	font-size: 11px;
+	line-height: 13px;
+	font-family: Verdana, "Sans Serif";
+	background: #fdfdfd url(../../Sitemap/mimes/vorlagen/pixel.gif) no-repeat right bottom;
+	text-align: justify;
+	padding: 10px 15px 20px 10px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+
+}

@@ -1,0 +1,8 @@
+RewriteEngine on
+rewritecond %{http_host} ^mallorca-finca-reisen.de [nc]
+rewriterule ^(.*)$ http://www.mallorca-finca-reisen.de/$1 [r=301,nc]
+
+RewriteEngine On
+ 
+RewriteCond %{HTTP_HOST} !^www\.ja2.cc$ [NC]
+RewriteRule ^(.*)$ http://www.ja2.cc/$1 [R=301,L]

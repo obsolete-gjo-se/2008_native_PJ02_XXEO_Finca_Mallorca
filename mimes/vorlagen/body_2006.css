@@ -1,0 +1,591 @@
+BODY {
+position : absolute;
+top : 2px;
+left: 2px;
+margin: 2px;
+width: 100%;
+padding: 0;
+background: #FFFFFF;
+color: #000000;
+}
+/*ooooooooooooooooooooooooooo  tabellendefintionen */
+#tabelledownlinks {
+font-family: Verdana, "Courier New", "Sans Serif";
+	font-size: 11px;
+	height: auto;
+	width: 133px;
+	color: #2A3F00;
+	background-color: #FFE4A4;
+	border-top: 1px solid #666699;
+	border-right: 1px solid #666699;
+	border-bottom:  1px solid #666699;
+	border-left: 1px solid #666699;
+}
+#tabelledownrechts {
+font-family: Verdana, "Courier New", "Sans Serif";
+	font-size: 11px;
+	height: auto;
+	width: 124px;
+	color: #2A3F00;
+	background-color: #FFE4A4;
+	border-top: 1px solid #666699;
+	border-right: 1px solid #666699;
+	border-bottom:  1px solid #666699;
+	border-left: none;
+}
+
+/*ooooooooooooooooooooooooooo  tabellendefintionen */
+
+/*ooooooooooooooooooooooooooo  menuedefintionen */
+.menusaison {
+ FONT-SIZE: 10px;
+ COLOR: #000000;
+ FONT-FAMILY: Tahoma,Arial,Helvetica;
+ text-align : center;
+ background: #D4BFAA;
+ BORDER-TOP: #000000 1px inset;
+ MARGIN: 0px;
+ BORDER-LEFT: #000000 1px inset;
+ padding-left: 1px;
+ padding-right: 1px;
+ height: 15px;
+ width: 100px;
+}
+.menubelegung {
+ FONT-SIZE: 10px;
+ COLOR: #000000;
+ FONT-FAMILY: Tahoma,Arial,Helvetica;
+ text-align : center;
+ background: #D4BFAA;
+ BORDER-TOP: #000000 1px inset;
+ BORDER-LEFT: #000000 1px inset;
+ MARGIN: 0px;
+ padding-left: 1px;
+ padding-right: 1px;
+ height: 15px;
+ width: 70px;
+}
+.menutpreis {
+ FONT-SIZE: 10px;
+ COLOR: #000000;
+ FONT-FAMILY: Tahoma,Arial,Helvetica;
+ text-align : center;
+ background: #D4BFAA;
+ BORDER-TOP: 1px inset #000000;
+ MARGIN: 0px;
+ BORDER-LEFT: 1px inset #000000;
+ BORDER-BOTTOM: 1px;
+ padding-left: 1px;
+ padding-right: 1px;
+ height: 15px;
+ width: 50px;
+}
+.menuwpreis {
+ FONT-SIZE: 10px;
+ COLOR: #000000;
+ FONT-FAMILY: Tahoma,Arial,Helvetica;
+ text-align : center;
+ background: #D4BFAA;
+ BORDER-TOP: #000000 1px inset;
+ MARGIN: 0px;
+ BORDER-RIGHT: #000000 1px inset;
+ BORDER-LEFT: #000000 1px inset;
+ padding-left: 1px;
+ padding-right: 1px;
+ height: 15px;
+ width: 50px;
+}
+/*ooooooooooooooooooooooooooo  MENUEdefintionen */
+/*ooooooooooooooooooooooooooo  SPALTENdefintionen */
+	                                    .spaltesaisonart {
+	                                     FONT-SIZE: 11px;
+	                                     COLOR: #000000;
+	                                     FONT-FAMILY: Tahoma,Arial,Helvetica;
+	                                     BACKGROUND-COLOR: #F6F0F7;
+	                                     BORDER-RIGHT: #000000 1px inset;
+	                                     BORDER-BOTTOM: #000000 1px inset;
+	                                     BORDER-TOP: #d7e8ff 1px inset;
+	                                     BORDER-LEFT: #d7e8ff 1px inset;
+	                                     PADDING-LEFT: 2px;
+	                                     MARGIN: 0px;
+	                                     height: 40px;
+	                                     width: 100px;
+	                                    }
+/*ooooooooooooooooooooooooooo  SPALTENdefintionen */
+
+/*ooooooooooooooooooooooooooo  SAISONdefintionen */
+	                                    .tabelletop             {
+	                                     color: #535353;
+	                                     font-size: 9px;
+	                                     line-height: 13px;
+	                                     font-family: Verdana, "Courier New", "Sans Serif";
+	                                     border-left: none;
+	                                     BORDER-TOP: #000000 1px inset;
+	                                     BORDER-RIGHT: #000000 1px inset;
+	                                     BORDER-BOTTOM: #000000 1px inset;
+	                                     MARGIN: 0px;
+	                                     padding: 0px;
+	                                     PADDING-RIGHT: 2px;
+	                                     text-align: right;
+	                                    }
+.tabellemiddle             {
+color: #535353;
+font-size: 9px;
+line-height: 13px;
+font-family: Verdana, "Courier New", "Sans Serif";
+	border-left: none;
+                BORDER-TOP: none;
+	BORDER-RIGHT: #000000 1px inset;
+	BORDER-BOTTOM: #000000 1px inset;
+	MARGIN: 0px;
+	padding: 0px;
+                PADDING-RIGHT: 2px;
+                PADDING-RIGHT: 2px;
+                text-align : right;
+}
+.tabelledown             {
+color: #535353;
+font-size: 9px;
+line-height: 13px;
+font-family: Verdana, "Courier New", "Sans Serif";
+	border-left: none;
+                BORDER-TOP: none;
+	BORDER-RIGHT: #000000 1px inset;
+	BORDER-BOTTOM: #000000 1px inset;
+	MARGIN: 0px;
+	padding: 0px;
+                PADDING-RIGHT: 2px;
+                PADDING-RIGHT: 2px;
+                text-align : right;
+}
+/*ooooooooooooooooooooooooooo###########################################  Impressionen  */
+	                                    .imphead {
+	                                     font : bold normal 14px/normal Tahoma;
+	                                     color : #ffffff;
+	                                     background : #666699;
+	                                     letter-spacing : normal;
+	                                     text-align : center;
+	                                     vertical-align : middle;
+	                                     word-spacing : normal;
+	                                     list-style-type : disc;
+	                                     border : 1px solid black;
+	                                     height : 21px;
+	                                     width: 270px;
+	                                    }
+
+	                                    .impleft {
+	                                     background-color: #FFE4A4;
+	                                     BORDER-TOP:  none;
+	                                     BORDER-RIGHT: none;
+	                                     BORDER-BOTTOM: #000000 1px inset;
+	                                     BORDER-LEFT: #000000 1px inset;
+	                                     MARGIN: 10px;
+	                                     padding: 10px;
+	                                     text-align: center;
+	                                    }
+	                                    .impright {
+	                                     background-color: #FFE4A4;
+	                                     BORDER-TOP:  none;
+	                                     BORDER-RIGHT: #000000 1px inset;
+	                                     BORDER-BOTTOM: #000000 1px inset;
+	                                     BORDER-LEFT: none;
+	                                     MARGIN: 10px;
+	                                     padding: 10px;
+	                                     text-align: center;
+	                                    }
+/*ooooooooooooooooooooooooooo###########################################  Impressionen ENDE */
+
+
+/* h1 deklarieren */
+	                  h1 {
+	                   color : #FFFFFF;
+	                   font-size : 12px;
+	                   font-family : Verdana, "Sans Serif";
+	                   margin-bottom : 1px;
+	                   margin-left : 2px;
+	                   background: #666699;
+	                   letter-spacing: normal;
+	                   text-align: center;
+	                   text-indent: 2pt;
+	                   vertical-align: middle;
+	                   word-spacing: normal;
+	                   border: 1px solid black;
+	                   height: 20px;
+	                  }
+/* h1 deklarieren */
+
+/*ooooooooooooooooooooooooooo  BEGIN fotoshow rubrik */
+.beschr {
+ font : bold normal 14px/normal Tahoma;
+ color : #ffffff;
+ background : #666699;
+ letter-spacing : normal;
+ text-align : center;
+ vertical-align : middle;
+ word-spacing : normal;
+ list-style-type : disc;
+ border : 1px solid black;
+ height : 21px;
+ width: 420px;
+}
+	                  .headerdetail {
+	                   font: italic bold 12px/normal Georgia, "Times New Roman", Times, serif;
+	                   color: #990033;
+	                   background:center;
+	                   text-align:center;
+	                   vertical-align: middle;
+	                   height: 123px;
+	                   width: 169px;
+	                  }
+	                  .fotoshow {
+	                  height : 65px;
+	                  width : 169px;
+	                  vertical-align : middle;
+	                  text-align : center;
+	                  border-top : 1px solid black;
+	                  border-right : 1px solid black;
+	                  border-bottom : 1px solid black;
+	                  border-left : 1px solid black;
+	                  }
+/* end fotoshow rubrik */
+
+
+
+
+/* ##############################################################  BEGIN detailinfo rubrik */
+.detailbg {
+	background: url(../../Sitemap/mimes/vorlagen/hintergr_gelb.jpg) repeat;
+	vertical-align: top;
+}
+.headdet {
+ font : bold normal 14px/normal Tahoma;
+ color : #ffffff;
+ background : #666699;
+ letter-spacing : normal;
+ text-align : center;
+ vertical-align : middle;
+ word-spacing : normal;
+ list-style-type : disc;
+ border : 1px solid black;
+ height : 21px;
+ width: 270px;
+}
+	                           .detailinfolinks {
+	                            font-family: Verdana, "Courier New", "Sans Serif";
+	                            font-size: 11px;
+	                            height: auto;
+	                            width: 133px;
+	                            color: #2A3F00;
+	                            background-color: #FFE4A4;
+	                            border-top: 1px solid #666699;
+	                            border-right: 1px solid #666699;
+	                            border-bottom: none;
+	                            border-left: 1px solid #666699;
+	                            text-indent: 2px;
+	                           }
+	                           .detailinforechts {
+	                            font-family: Verdana, "Courier New", "Sans Serif";
+	                            font-size: 11px;
+	                            height: auto;
+	                            width: 124px;
+	                            color: #2A3F00;
+	                            background-color: #FFE4A4;
+	                            border-top: 1px solid #666699;
+	                            border-right: 1px solid #666699;
+	                            border-bottom: none;
+	                            border-left: none;
+	                            text-indent: 2px;
+	                           }
+
+.dtllinks-2 {
+font-family: Verdana, "Courier New", "Sans Serif";
+	font-size: 11px;
+	height: auto;
+	width: 133px;
+	color: #2A3F00;
+	background-color: #F9CF6B;
+	border-top: 1px solid #666699;
+	border-right: 1px solid #666699;
+	border-bottom: none;
+	border-left: 1px solid #666699;
+	text-indent: 2px;
+}
+.dtlrechts-2 {
+	font-family: Verdana, "Courier New", "Sans Serif";
+	font-size: 11px;
+	height: auto;
+	width: 124px;
+	color: #2A3F00;
+	background-color: #F9CF6B;
+	border-top: 1px solid #666699;
+	border-right: 1px solid #666699;
+	border-bottom: none;
+	border-left: none;
+	text-indent: 2px;
+
+}
+
+.detailinfo {
+	padding-left: 1px;
+	text-indent: 1px;
+}
+	                                    .infohead {
+	                                     font: normal bold x-small Tahoma;
+	                                     text-align: center;
+	                                     background: #FFFFFF;
+	                                     padding: 5px;
+	                                     border-top: 1px solid #666699;
+	                                     border-right: 1px solid #666699;
+	                                     border-bottom: none;
+	                                     border-left: 1px solid #666699;
+	                                    }
+	                                    .druck2 {
+	                                     background: #FFFF99;
+	                                     text-align: center;
+	                                     width: 270px;
+	                                     border-top: 1px solid black;
+	                                     border-right: 1px solid black;
+	                                     border-bottom: 1px solid black;
+	                                     border-left: 1px solid black;
+	                                    }
+/* end detailinfo rubrik */
+
+
+
+
+.tablegesamt {border: 1px solid black;background: #FFE4A4;}
+.bildzeile             { color: #535353; font-size: 9px; line-height: 13px; font-family: Verdana, "Courier New", "Sans Serif"; text-align: center; border-left: 5px none }
+
+.xformbordermain        {font-size: 9px;font-family: Verdana, "Sans Serif";background: #FFFFFF;border-top: 1px solid black;border-right: 1px none black;border-bottom: 1px none black;border-left: 1px solid black;}
+
+/* HYPERLINKS GESTALTEN */
+A:link {text-decoration: underline; color: #000066; }
+A:active {text-decoration: underline; color: red; }
+A:visited {color: gray; }
+A:hover {text-decoration: none; color: red; }
+/* ENDE HYPERLINKS GESTALTEN */
+
+.xbordertophead {
+	color: #f8f8f8;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 13px;
+	font-family: Geneva, Arial, Helvetica, san-serif;
+	background-color: #CC3300;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	text-align: left;
+	padding: 5px;
+}
+
+	                           .textzeile {
+	                            font: bold small-caps normal 13px Verdana, Arial, Helvetica, sans-serif;
+	                            text-align: left;
+	                            background: #FFFFAA;
+	                            border-bottom: 1px solid black;
+
+	                           }
+	                           .textinhalt {
+	                            font: normal x-small Geneva, Arial, Helvetica, sans-serif;
+	                            text-align: justify;
+	                            background: #FFFFFF url(../../Sitemap/mimes/vorlagen/pixel.gif) no-repeat right bottom;
+	                            padding-right: 10px;
+	                            padding-bottom: 10px;
+	                            padding-left: 10px;
+	                           }
+
+.textfliess {
+	font: normal 11px/normal Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-align: justify;
+	text-indent: 5px;
+	border: 1px solid #000000;
+	padding: 5px;
+	margin: 5px;
+}
+.pluspunkt {
+ font: normal x-small Geneva, Arial, Helvetica, sans-serif;
+ padding: 10px;
+}
+
+.bgsonderpreis {
+	background: #666699;
+	width: auto;
+	border: 1px solid black;
+	padding-left: 2px;
+}
+
+
+.bildrahmen {
+	font-size: 9px;
+	font-family: Verdana, "Sans Serif";
+	background: #FFFFFF;
+	border: 1px solid black;
+}
+.zusatz {
+	font-size: 9px;
+	font-family: Verdana, "Sans Serif";
+	background: #FFFFFF;
+	border: 1px solid black;
+	padding: 2px;
+}
+.oue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	background-color: #FFE4A4;
+	height: auto;
+	width: auto;
+	vertical-align: top;
+}
+
+.textvorinput {
+	PADDING-RIGHT: 5px; FONT-SIZE: 10px; VERTICAL-ALIGN: middle; BORDER-LEFT: 5px; COLOR: #3e3e3e; LINE-HEIGHT: 10px; FONT-FAMILY: Verdana, "Courier New", "Sans Serif"; TEXT-ALIGN: left
+}
+.textvorpflichtinput {
+	PADDING-RIGHT: 10px; FONT-SIZE: 10px; VERTICAL-ALIGN: middle; BORDER-LEFT: 5px; COLOR: #d14d00; LINE-HEIGHT: 13px; FONT-FAMILY: Verdana, "Courier New", "Sans Serif"; TEXT-ALIGN: left
+}
+.forminputyear {
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	FONT-SIZE: 10px;
+	VERTICAL-ALIGN: baseline;
+	BORDER-LEFT: #808080 1px solid;
+	WIDTH: 60px;
+	COLOR: #414141;
+	LINE-HEIGHT: 10px;
+	BORDER-BOTTOM: #808080 1px solid;
+	FONT-STYLE: normal;
+	FONT-FAMILY: verdana, arial, "Sans Serif";
+	BACKGROUND-COLOR: #f5f5f5;
+	TEXT-ALIGN: left;
+	FONT-VARIANT: normal;
+	TEXT-DECORATION: none;
+	padding: 1px;
+}
+.forminpumonth {
+
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	FONT-SIZE: 10px;
+	VERTICAL-ALIGN: baseline;
+	BORDER-LEFT: #808080 1px solid;
+	WIDTH: 90px;
+	COLOR: #414141;
+	LINE-HEIGHT: 10px;
+	BORDER-BOTTOM: #808080 1px solid;
+	FONT-STYLE: normal;
+	FONT-FAMILY: verdana, arial, "Sans Serif";
+	BACKGROUND-COLOR: #f5f5f5;
+	TEXT-ALIGN: left;
+	FONT-VARIANT: normal;
+	TEXT-DECORATION: none;
+	padding: 1px;
+}
+
+.forminput {
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	FONT-SIZE: 10px;
+	VERTICAL-ALIGN: baseline;
+	BORDER-LEFT: #808080 1px solid;
+	WIDTH: 100px;
+	COLOR: #414141;
+	LINE-HEIGHT: 10px;
+	BORDER-BOTTOM: #808080 1px solid;
+	FONT-STYLE: normal;
+	FONT-FAMILY: verdana, arial, "Sans Serif";
+	BACKGROUND-COLOR: #f5f5f5;
+	TEXT-ALIGN: left;
+	FONT-VARIANT: normal;
+	TEXT-DECORATION: none;
+	padding: 1px;
+}
+.forminput2 {
+	BORDER-RIGHT: #808080 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #808080 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 10px; PADDING-BOTTOM: 1px; VERTICAL-ALIGN: baseline; BORDER-LEFT: #808080 1px solid; WIDTH: 40px; COLOR: #414141; LINE-HEIGHT: 10px; PADDING-TOP: 1px; BORDER-BOTTOM: #808080 1px solid; FONT-STYLE: normal; FONT-FAMILY: verdana, arial, "Sans Serif"; BACKGROUND-COLOR: #f5f5f5; TEXT-ALIGN: left; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.forminput3 {
+	BORDER-RIGHT: #808080 1pt solid;
+	BORDER-TOP: #808080 1pt solid;
+	FONT-SIZE: 10px;
+	VERTICAL-ALIGN: baseline;
+	BORDER-LEFT: #808080 1pt solid;
+	WIDTH: auto;
+	COLOR: #414141;
+	LINE-HEIGHT: 10px;
+	BORDER-BOTTOM: #808080 1pt solid;
+	FONT-STYLE: normal;
+	FONT-FAMILY: verdana, arial, "Sans Serif";
+	BACKGROUND-COLOR: #f5f5f5;
+	TEXT-ALIGN: left;
+	FONT-VARIANT: normal;
+	TEXT-DECORATION: none;
+	padding: 1px;
+}
+.tableuntenohne {
+	background: #FFE4A4;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px none black;
+	border-left: 1px solid black;
+
+}
+.datens {
+	color: #2A3F00;
+	text-align: justify;
+	text-indent: 5px;
+	border: 1px solid #000000;
+	padding: 5px;
+	margin: 5px;
+	background: #FFFFFF;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-family: "Tenacity Caps";
+}
+.headwochenpreis {
+	font: bold normal x-small Tahoma;
+	text-align: center;
+	background: #A0A0A4;
+	padding: 5px;
+	border-top: 1px solid #666699;
+	border-right: 1px solid #666699;
+	border-bottom: none;
+	border-left: 1px solid #666699;
+	color: #FFFFFF;
+
+}
+.zusatz1 {
+ font-size: 9px;
+ font-family: Verdana, "Sans Serif";
+ background: #FFFFFF;
+ padding: 2px;
+ font-weight: bold;
+ color: #FF0000;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+}
+.bottomnavi {
+	font: normal 9px Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #FFFFFF;
+    background : #666699;
+	height: auto;
+	width: auto;
+	border-top: none;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+
+}

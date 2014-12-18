@@ -1,0 +1,151 @@
+BODY {
+position : absolute;
+top : 2px;
+left: 2px;
+margin: 2px;
+width: 100%;
+padding: 0;
+background: #FFFFFF;
+color: #000000;
+}
+
+	                           .oue {
+	                            font-family: Arial, Helvetica, sans-serif;
+	                            font-size: x-small;
+	                            font-style: normal;
+	                            line-height: normal;
+	                            font-weight: normal;
+	                            font-variant: normal;
+	                            text-transform: none;
+	                            color: #000000;
+	                            background-color: #FFE4A4;
+	                            height: auto;
+	                            width: auto;
+	                            vertical-align: top;
+	                           }
+	                           .oue2 {
+	                            font-family: Arial, Helvetica, sans-serif;
+	                            font-size: x-small;
+	                            font-style: normal;
+	                            line-height: normal;
+	                            font-weight: normal;
+	                            font-variant: normal;
+	                            text-transform: none;
+	                            color: #FFFFFe;
+	                            background-color: #7F7F55;
+	                            height: 19px;
+	                            width: auto ;
+	                            text-indent: 1pt;
+	                            background-position: left left;
+	                            text-align: center
+	                           }
+
+.ouetitel {font-family: Arial, Helvetica, sans-serif;font-size: x-small;font-style: normal;line-height: normal;font-weight: normal;font-variant: normal;text-transform: none;
+	color: #000000;background-color: #FFFFFF;height: auto;width: auto;vertical-align: top;}
+/* Listenstil KARO */
+ul {
+list-style-image : url(../../Sitemap/mimes/vorlagen/karo.gif);
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 10pt;
+}
+
+
+/* ZEICHENVORLAGEN */
+i {color : #000066; }
+
+/* HYPERLINKS GESTALTEN */
+
+A:link {text-decoration: underline; color: #000066; }
+A:active {text-decoration: underline; color: red; }
+A:visited {color: gray; }
+A:hover {text-decoration: none; color: red; }
+
+/* Gesamtumrandung TABELLE */
+table.umrandung {
+border-style : solid;
+border-width: 1px;
+border-color : blue;
+}
+
+#tabellename {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: none;
+}
+
+.lastminutetop {
+	color: #FFFFCC;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 13px;
+	font-family: Geneva, Arial, Helvetica, san-serif;
+	background-color: #B64919;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	text-align: center;
+}
+	                           td.tab1 {
+	                            border-top: 1px solid black;
+	                            border-right: none;
+	                            border-bottom: 1px solid black;
+	                            border-left: 1px solid black;
+	                            PADDING-LEFT: 1px;
+	                            PADDING-RIGHT: 1px;
+	                            width: 135px;
+	                           }
+	                           td.tab2 {
+	                            border-top: 1px solid black;
+	                            border-right: none;
+	                            border-bottom: 1px solid black;
+	                            border-left: none;
+	                            PADDING-LEFT: 2px;
+	                            Width: 135px;
+	                            vertical-align: top;
+	                           }
+	                           td.tab3 {
+	                            border-top: 1px solid black;
+	                            border-right: none;
+	                            border-bottom: 1px solid black;
+	                            border-left: none;
+	                            Width: 86px;
+	                           }
+	                           td.tab4 {
+	                            border-top: 1px solid black;
+	                            border-right: none;
+	                            border-bottom: 1px solid black;
+	                            border-left: none;
+	                            PADDING-LEFT: 2px;
+	                            Width: 112px;
+	                           }
+	                           td.tab5 {
+	                            border-top: 1px solid black;
+	                            border-right: 1px solid black;
+	                            border-bottom: 1px solid black;
+	                            border-left: none;
+	                            Width: 101px;
+	                           }
+.beschr {
+	font: bold small-caps normal 14px/normal Tahoma;
+	color: #FFFFFF;
+	background: #666699;
+	letter-spacing: normal;
+	text-align: center;
+	text-indent: 2pt;
+	vertical-align: middle;
+	word-spacing: normal;
+	list-style-type: disc;
+	border: 1px solid black;
+	}
+/* Navigation */
+.btn 		{
+FONT-FAMILY: verdana, arial, "Sans Serif";
+COLOR: #FFFFFF;
+border: 1px solid #2A1FFF;
+font-size:10px;
+background:#fff;
+background-color: #94B8D4;
